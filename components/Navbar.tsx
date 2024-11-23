@@ -24,9 +24,9 @@ export default function Navbar() {
                 <Link href="/" className={navigationMenuTriggerStyle()}>
                     Homepage
                 </Link>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                About
-                </NavigationMenuLink>
+                <Link href="/about" className={navigationMenuTriggerStyle()}>
+                    About
+                </Link>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Contact
                 </NavigationMenuLink>
@@ -51,7 +51,11 @@ export default function Navbar() {
                         Homepage
                         </Link>
                     </SheetTitle>
-                    <SheetTitle>About</SheetTitle>
+                    <SheetTitle>
+                        <Link href="/about">
+                        About
+                        </Link>
+                    </SheetTitle>
                     <SheetTitle>Contact</SheetTitle>
                     </SheetHeader>
                 </SheetContent>

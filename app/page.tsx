@@ -8,11 +8,9 @@ import Search from "@/components/Search";
 export default function Home() {
   return (
     <div className="flex flex-col mx-auto">
-      <Navbar />
       <Search/>
       <Hero/>
       <Posts/>
-      <Footer/>
     </div>
   );
 }

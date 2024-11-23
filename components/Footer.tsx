@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className="flex flex-col items-center mx-auto w-3/4 font-bold mb-16">
+    <div className="flex flex-col items-center mx-auto w-3/4 font-bold mb-12">
         <hr className='w-full mt-2 text-slate-950 text-2xl'/>
         <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight mt-4">
             Write Sphere
@@ -22,6 +22,9 @@ export default function Footer() {
             <Linkedin className="h-6 w-6 text-slate-600 hover:text-slate-800" />
         </a>
         </div>
+        <p className="text-center text-xs text-slate-900 mt-4">
+            Copyright   {new Date().getFullYear()} Write Sphere. All rights reserved.
+        </p>
     </div>
   )
 }
