@@ -31,10 +31,10 @@ export default function Navbar() {
                 Contact
                 </NavigationMenuLink>
                 <div className="m-0">
-                    <Button variant={"outline"} className='me-4'>
+                    <Button variant={"outline"} className='me-3 rounded-full'>
                         <Link href="/signup">Sign Up</Link>
                     </Button>
-                    <Button>
+                    <Button className='rounded-full'>
                         <Link href="/sig">Sign In</Link>
                     </Button>
                 </div>
