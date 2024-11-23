@@ -21,9 +21,9 @@ export default function Navbar() {
         </NavigationMenu>
         <NavigationMenu className='hidden md:flex '>
             <div className="flex font-bold">
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                <Link href="/" className={navigationMenuTriggerStyle()}>
                     Homepage
-                </NavigationMenuLink>
+                </Link>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 About
                 </NavigationMenuLink>
@@ -46,7 +46,11 @@ export default function Navbar() {
             <SheetTrigger className='md:hidden'>☰</SheetTrigger>
                 <SheetContent>
                     <SheetHeader>
-                    <SheetTitle>Homepage</SheetTitle>
+                    <SheetTitle>
+                        <Link href="/">
+                        Homepage
+                        </Link>
+                    </SheetTitle>
                     <SheetTitle>About</SheetTitle>
                     <SheetTitle>Contact</SheetTitle>
                     </SheetHeader>

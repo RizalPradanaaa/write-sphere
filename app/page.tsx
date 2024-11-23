@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import Posts from "@/components/Posts";
 import Search from "@/components/Search";
 
 
@@ -9,6 +10,7 @@ export default function Home() {
       <Navbar />
       <Search/>
       <Hero/>
+      <Posts/>
     </div>
   );
 }
