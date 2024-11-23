@@ -4,7 +4,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 
 export default function Posts() {
   return (
-    <div className="mx-auto w-3/4 mb-36">
+    <div className="mx-auto w-3/4 mb-16">
         <h2 className="text-base text-dark md:text-3xl font-semibold mt-7">
             Recent posts
         </h2>
